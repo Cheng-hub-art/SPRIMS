@@ -1,18 +1,14 @@
 # 🎓 学生保研信息管理系统 (SPRIMS)
 
-![Java](https://img.shields.io/badge/Java-Swing-orange.svg)
-![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue.svg)
-![FlatLaf](https://img.shields.io/badge/UI-FlatLaf_3.4.1-brightgreen.svg)
-
 ## 📖 项目介绍
 **学生保研信息管理系统 (Student Postgraduate Recommendation Information Management System)** 是一款基于 Java Swing + MySQL 开发的桌面级应用程序。
 本项目旨在为高校的“推免生（保研）”工作提供一个全流程、数字化的管理平台。系统严格划分了**学生、教师、管理员**三层角色权限，实现了从学生提交申请、上传佐证材料，到教师查阅初审、综合打分，再到管理员全局监控、政策管理的业务闭环。
 
 ## 🛠️ 环境配置
 本项目为标准 Java SE 项目（未使用 Maven），依赖包已在本地提供。
-* **开发语言**: Java (推荐 JDK 11 或 JDK 17)
+* **开发语言**: Java (我使用JDK 17)
 * **数据库**: MySQL 8.0 及以上
-* **开发工具**: IntelliJ IDEA (推荐) 或 Eclipse
+* **开发工具**: IntelliJ IDEA 
 * **外部依赖 (Jar包)**:
     * `mysql-connector-j-8.x.x.jar` (MySQL 驱动)
     * `flatlaf-3.4.1.jar` (现代化扁平化 UI 主题)
@@ -23,7 +19,7 @@
     git clone [https://github.com/你的用户名/你的仓库名.git](https://github.com/你的用户名/你的仓库名.git)
     ```
 2.  **配置数据库**：
-    * 在 MySQL 中新建数据库（例如 `hrmisss` 或 `sprims`）。
+    * 在 MySQL 中新建数据库 hrmisss
     * 导入项目附带的 `.sql` 数据库脚本文件，生成所需的表结构及初始数据。
     * 打开 `src/com/hrmisss/util/DBUtil.java`，修改数据库连接的 URL、用户名和密码为你本地的配置。
 3.  **导入依赖包**：
