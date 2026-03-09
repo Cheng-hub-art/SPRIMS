@@ -14,17 +14,13 @@
     * `flatlaf-3.4.1.jar` (现代化扁平化 UI 主题)
 
 ## 🚀 运行步骤
-1.  **克隆项目**到本地：
-    ```bash
-    git clone [https://github.com/你的用户名/你的仓库名.git](https://github.com/你的用户名/你的仓库名.git)
-    ```
-2.  **配置数据库**：
+1.  **配置数据库**：
     * 在 MySQL 中新建数据库 hrmisss
     * 导入项目附带的 `.sql` 数据库脚本文件，生成所需的表结构及初始数据。
     * 打开 `src/com/hrmisss/util/DBUtil.java`，修改数据库连接的 URL、用户名和密码为你本地的配置。
-3.  **导入依赖包**：
+2.  **导入依赖包**：
     * 在 IDEA 中，选中项目根目录下的 `.jar` 包文件，右键点击 `Add as Library...`。
-4.  **运行程序**：
+3.  **运行程序**：
     * 找到并运行入口文件 `src/com/hrmisss/view/LoginFrame.java` 的 `main` 方法，即可启动系统。
 
 ## ✨ 功能说明
